@@ -15,30 +15,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        setKeyWindow()
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "showMainViewController", name: SD_showMainTabbarController_Notification, object: nil)
+        
         return true
     }
-
-    func applicationWillResignActive(application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    private func setKeyWindow(){
+        window = UIWindow(frame: MainBounds)
+        window?.rootViewController = showLeadPage()
+        window?.makeKeyAndVisible()
     }
-
-    func applicationDidEnterBackground(application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    //在一个消息处理结束后调用
+    deinit{
+        NSNotificationCenter.defaultCenter().removeObserver(self)
     }
-
-    func applicationWillEnterForeground(application: UIApplication) {
-        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+   //MARK: -引导页设置
+    private func showLeadPage() -> UIViewController {
+        let versionStr = "CFBundleShortVersionString"
+        let currentVersion = NSBundle.mainBundle().infoDictionary![versionStr] as! String
+        let oldVersion = (NSUserDefaults.standardUserDefaults().objectForKey(versionStr) as? String) ?? ""
+        //当前的版本号大于老版本,那么就运行新特性界面.(代表程序已经更新了)
+        if currentVersion.compare(oldVersion) == NSComparisonResult.OrderedDescending{
+            NSUserDefaults.standardUserDefaults().setObject(currentVersion, forKey: versionStr)
+            NSUserDefaults.standardUserDefaults().synchronize()
+            return LeadPageViewControl()
+        }
+        return MainTabBarController()
     }
-
-    func applicationDidBecomeActive(application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    }
-
-    func applicationWillTerminate(application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    //监听通知,展示首页
+    func showMainViewController(){
+        
     }
 
 

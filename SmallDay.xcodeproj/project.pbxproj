@@ -14,6 +14,27 @@
 		FC85C8DC1CD1F0EA0068A1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC85C8DA1CD1F0EA0068A1D2 /* LaunchScreen.storyboard */; };
 		FC85C8E71CD1F0EA0068A1D2 /* SmallDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C8E61CD1F0EA0068A1D2 /* SmallDayTests.swift */; };
 		FC85C8F21CD1F0EA0068A1D2 /* SmallDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C8F11CD1F0EA0068A1D2 /* SmallDayUITests.swift */; };
+		FC85C91E1CD1F12D0068A1D2 /* 798 in Resources */ = {isa = PBXBuildFile; fileRef = FC85C9051CD1F12D0068A1D2 /* 798 */; };
+		FC85C91F1CD1F12D0068A1D2 /* Classify in Resources */ = {isa = PBXBuildFile; fileRef = FC85C9061CD1F12D0068A1D2 /* Classify */; };
+		FC85C9201CD1F12D0068A1D2 /* Details in Resources */ = {isa = PBXBuildFile; fileRef = FC85C9071CD1F12D0068A1D2 /* Details */; };
+		FC85C9211CD1F12D0068A1D2 /* events in Resources */ = {isa = PBXBuildFile; fileRef = FC85C9081CD1F12D0068A1D2 /* events */; };
+		FC85C9221CD1F12D0068A1D2 /* Experience in Resources */ = {isa = PBXBuildFile; fileRef = FC85C9091CD1F12D0068A1D2 /* Experience */; };
+		FC85C9231CD1F12D0068A1D2 /* More in Resources */ = {isa = PBXBuildFile; fileRef = FC85C90A1CD1F12D0068A1D2 /* More */; };
+		FC85C9241CD1F12D0068A1D2 /* Nears in Resources */ = {isa = PBXBuildFile; fileRef = FC85C90B1CD1F12D0068A1D2 /* Nears */; };
+		FC85C9251CD1F12D0068A1D2 /* themes in Resources */ = {isa = PBXBuildFile; fileRef = FC85C90C1CD1F12D0068A1D2 /* themes */; };
+		FC85C9261CD1F12D0068A1D2 /* 三里屯 in Resources */ = {isa = PBXBuildFile; fileRef = FC85C90D1CD1F12D0068A1D2 /* 三里屯 */; };
+		FC85C9271CD1F12D0068A1D2 /* 南锣鼓巷 in Resources */ = {isa = PBXBuildFile; fileRef = FC85C90E1CD1F12D0068A1D2 /* 南锣鼓巷 */; };
+		FC85C9281CD1F12D0068A1D2 /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C9191CD1F12D0068A1D2 /* theme.swift */; };
+		FC85C92B1CD1F5C10068A1D2 /* LeadPageViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C92A1CD1F5C10068A1D2 /* LeadPageViewControl.swift */; };
+		FC85C92D1CD1F5EC0068A1D2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C92C1CD1F5EC0068A1D2 /* MainTabBarController.swift */; };
+		FC85C92F1CD1F8EF0068A1D2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C92E1CD1F8EF0068A1D2 /* MainViewController.swift */; };
+		FC85C9311CD1F92B0068A1D2 /* ClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C9301CD1F92B0068A1D2 /* ClassifyViewController.swift */; };
+		FC85C9331CD1F9490068A1D2 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C9321CD1F9490068A1D2 /* ExperienceViewController.swift */; };
+		FC85C9351CD1F9570068A1D2 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C9341CD1F9570068A1D2 /* ExploreViewController.swift */; };
+		FC85C9371CD1F9750068A1D2 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C9361CD1F9750068A1D2 /* MeViewController.swift */; };
+		FC85C9391CD1FD130068A1D2 /* XMColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C9381CD1FD130068A1D2 /* XMColor.swift */; };
+		FC85C93B1CD200A50068A1D2 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C93A1CD200A50068A1D2 /* MainNavigationController.swift */; };
+		FCFC68D21CD20673004B1ECC /* DoubleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFC68D11CD20673004B1ECC /* DoubleTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +68,27 @@
 		FC85C8ED1CD1F0EA0068A1D2 /* SmallDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC85C8F11CD1F0EA0068A1D2 /* SmallDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallDayUITests.swift; sourceTree = "<group>"; };
 		FC85C8F31CD1F0EA0068A1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC85C9051CD1F12D0068A1D2 /* 798 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 798; sourceTree = "<group>"; };
+		FC85C9061CD1F12D0068A1D2 /* Classify */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Classify; sourceTree = "<group>"; };
+		FC85C9071CD1F12D0068A1D2 /* Details */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Details; sourceTree = "<group>"; };
+		FC85C9081CD1F12D0068A1D2 /* events */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = events; sourceTree = "<group>"; };
+		FC85C9091CD1F12D0068A1D2 /* Experience */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Experience; sourceTree = "<group>"; };
+		FC85C90A1CD1F12D0068A1D2 /* More */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = More; sourceTree = "<group>"; };
+		FC85C90B1CD1F12D0068A1D2 /* Nears */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nears; sourceTree = "<group>"; };
+		FC85C90C1CD1F12D0068A1D2 /* themes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = themes; sourceTree = "<group>"; };
+		FC85C90D1CD1F12D0068A1D2 /* 三里屯 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "三里屯"; sourceTree = "<group>"; };
+		FC85C90E1CD1F12D0068A1D2 /* 南锣鼓巷 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "南锣鼓巷"; sourceTree = "<group>"; };
+		FC85C9191CD1F12D0068A1D2 /* theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		FC85C92A1CD1F5C10068A1D2 /* LeadPageViewControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadPageViewControl.swift; sourceTree = "<group>"; };
+		FC85C92C1CD1F5EC0068A1D2 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FC85C92E1CD1F8EF0068A1D2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FC85C9301CD1F92B0068A1D2 /* ClassifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyViewController.swift; sourceTree = "<group>"; };
+		FC85C9321CD1F9490068A1D2 /* ExperienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
+		FC85C9341CD1F9570068A1D2 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		FC85C9361CD1F9750068A1D2 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		FC85C9381CD1FD130068A1D2 /* XMColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMColor.swift; sourceTree = "<group>"; };
+		FC85C93A1CD200A50068A1D2 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		FCFC68D11CD20673004B1ECC /* DoubleTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +119,7 @@
 		FC85C8C51CD1F0EA0068A1D2 = {
 			isa = PBXGroup;
 			children = (
+				FC85C8FF1CD1F12D0068A1D2 /* LittleDay */,
 				FC85C8D01CD1F0EA0068A1D2 /* SmallDay */,
 				FC85C8E51CD1F0EA0068A1D2 /* SmallDayTests */,
 				FC85C8F01CD1F0EA0068A1D2 /* SmallDayUITests */,
@@ -123,6 +166,139 @@
 				FC85C8F31CD1F0EA0068A1D2 /* Info.plist */,
 			);
 			path = SmallDayUITests;
+			sourceTree = "<group>";
+		};
+		FC85C8FF1CD1F12D0068A1D2 /* LittleDay */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C9031CD1F12D0068A1D2 /* BusinessModel(业务模型) */,
+				FC85C9041CD1F12D0068A1D2 /* CustomData */,
+				FC85C90F1CD1F12D0068A1D2 /* imagesFile(大图) */,
+				FC85C9101CD1F12D0068A1D2 /* Tools(工具) */,
+				FC85C9111CD1F12D0068A1D2 /* UI(界面) */,
+				FC85C91A1CD1F12D0068A1D2 /* Venders(第三方库) */,
+			);
+			name = LittleDay;
+			path = ../LittleDay/LittleDay;
+			sourceTree = "<group>";
+		};
+		FC85C9031CD1F12D0068A1D2 /* BusinessModel(业务模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "BusinessModel(业务模型)";
+			sourceTree = "<group>";
+		};
+		FC85C9041CD1F12D0068A1D2 /* CustomData */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C9051CD1F12D0068A1D2 /* 798 */,
+				FC85C9061CD1F12D0068A1D2 /* Classify */,
+				FC85C9071CD1F12D0068A1D2 /* Details */,
+				FC85C9081CD1F12D0068A1D2 /* events */,
+				FC85C9091CD1F12D0068A1D2 /* Experience */,
+				FC85C90A1CD1F12D0068A1D2 /* More */,
+				FC85C90B1CD1F12D0068A1D2 /* Nears */,
+				FC85C90C1CD1F12D0068A1D2 /* themes */,
+				FC85C90D1CD1F12D0068A1D2 /* 三里屯 */,
+				FC85C90E1CD1F12D0068A1D2 /* 南锣鼓巷 */,
+			);
+			path = CustomData;
+			sourceTree = "<group>";
+		};
+		FC85C90F1CD1F12D0068A1D2 /* imagesFile(大图) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "imagesFile(大图)";
+			sourceTree = "<group>";
+		};
+		FC85C9101CD1F12D0068A1D2 /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools(工具)";
+			sourceTree = "<group>";
+		};
+		FC85C9111CD1F12D0068A1D2 /* UI(界面) */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C9121CD1F12D0068A1D2 /* Classify(分类) */,
+				FC85C9131CD1F12D0068A1D2 /* Experience(体验) */,
+				FC85C9141CD1F12D0068A1D2 /* Explore(探店) */,
+				FC85C9151CD1F12D0068A1D2 /* extension(扩展) */,
+				FC85C9161CD1F12D0068A1D2 /* Main(公共) */,
+				FC85C9171CD1F12D0068A1D2 /* Me(我的) */,
+				FC85C9181CD1F12D0068A1D2 /* Other(其它) */,
+			);
+			path = "UI(界面)";
+			sourceTree = "<group>";
+		};
+		FC85C9121CD1F12D0068A1D2 /* Classify(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C9301CD1F92B0068A1D2 /* ClassifyViewController.swift */,
+			);
+			path = "Classify(分类)";
+			sourceTree = "<group>";
+		};
+		FC85C9131CD1F12D0068A1D2 /* Experience(体验) */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C9321CD1F9490068A1D2 /* ExperienceViewController.swift */,
+			);
+			path = "Experience(体验)";
+			sourceTree = "<group>";
+		};
+		FC85C9141CD1F12D0068A1D2 /* Explore(探店) */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C9341CD1F9570068A1D2 /* ExploreViewController.swift */,
+				FCFC68D11CD20673004B1ECC /* DoubleTextView.swift */,
+			);
+			path = "Explore(探店)";
+			sourceTree = "<group>";
+		};
+		FC85C9151CD1F12D0068A1D2 /* extension(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C9381CD1FD130068A1D2 /* XMColor.swift */,
+			);
+			path = "extension(扩展)";
+			sourceTree = "<group>";
+		};
+		FC85C9161CD1F12D0068A1D2 /* Main(公共) */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C92A1CD1F5C10068A1D2 /* LeadPageViewControl.swift */,
+				FC85C92C1CD1F5EC0068A1D2 /* MainTabBarController.swift */,
+				FC85C92E1CD1F8EF0068A1D2 /* MainViewController.swift */,
+				FC85C93A1CD200A50068A1D2 /* MainNavigationController.swift */,
+			);
+			path = "Main(公共)";
+			sourceTree = "<group>";
+		};
+		FC85C9171CD1F12D0068A1D2 /* Me(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C9361CD1F9750068A1D2 /* MeViewController.swift */,
+			);
+			path = "Me(我的)";
+			sourceTree = "<group>";
+		};
+		FC85C9181CD1F12D0068A1D2 /* Other(其它) */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C9191CD1F12D0068A1D2 /* theme.swift */,
+			);
+			path = "Other(其它)";
+			sourceTree = "<group>";
+		};
+		FC85C91A1CD1F12D0068A1D2 /* Venders(第三方库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Venders(第三方库)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +408,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC85C9261CD1F12D0068A1D2 /* 三里屯 in Resources */,
+				FC85C9241CD1F12D0068A1D2 /* Nears in Resources */,
 				FC85C8DC1CD1F0EA0068A1D2 /* LaunchScreen.storyboard in Resources */,
+				FC85C91E1CD1F12D0068A1D2 /* 798 in Resources */,
+				FC85C9271CD1F12D0068A1D2 /* 南锣鼓巷 in Resources */,
+				FC85C91F1CD1F12D0068A1D2 /* Classify in Resources */,
+				FC85C9231CD1F12D0068A1D2 /* More in Resources */,
+				FC85C9211CD1F12D0068A1D2 /* events in Resources */,
 				FC85C8D91CD1F0EA0068A1D2 /* Assets.xcassets in Resources */,
+				FC85C9221CD1F12D0068A1D2 /* Experience in Resources */,
+				FC85C9251CD1F12D0068A1D2 /* themes in Resources */,
+				FC85C9201CD1F12D0068A1D2 /* Details in Resources */,
 				FC85C8D71CD1F0EA0068A1D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +445,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC85C9371CD1F9750068A1D2 /* MeViewController.swift in Sources */,
+				FC85C9391CD1FD130068A1D2 /* XMColor.swift in Sources */,
+				FC85C9331CD1F9490068A1D2 /* ExperienceViewController.swift in Sources */,
+				FC85C9281CD1F12D0068A1D2 /* theme.swift in Sources */,
 				FC85C8D41CD1F0EA0068A1D2 /* ViewController.swift in Sources */,
+				FC85C92D1CD1F5EC0068A1D2 /* MainTabBarController.swift in Sources */,
+				FC85C93B1CD200A50068A1D2 /* MainNavigationController.swift in Sources */,
+				FC85C92F1CD1F8EF0068A1D2 /* MainViewController.swift in Sources */,
+				FCFC68D21CD20673004B1ECC /* DoubleTextView.swift in Sources */,
+				FC85C9351CD1F9570068A1D2 /* ExploreViewController.swift in Sources */,
 				FC85C8D21CD1F0EA0068A1D2 /* AppDelegate.swift in Sources */,
+				FC85C92B1CD1F5C10068A1D2 /* LeadPageViewControl.swift in Sources */,
+				FC85C9311CD1F92B0068A1D2 /* ClassifyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +597,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SmallDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenfor.SmallDay;
@@ -411,6 +609,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SmallDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenfor.SmallDay;
@@ -485,6 +684,7 @@
 				FC85C8F81CD1F0EA0068A1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC85C8F91CD1F0EA0068A1D2 /* Build configuration list for PBXNativeTarget "SmallDayTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +693,7 @@
 				FC85C8FB1CD1F0EA0068A1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC85C8FC1CD1F0EA0068A1D2 /* Build configuration list for PBXNativeTarget "SmallDayUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +702,7 @@
 				FC85C8FE1CD1F0EA0068A1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
